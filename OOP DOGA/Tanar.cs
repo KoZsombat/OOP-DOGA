@@ -26,12 +26,12 @@ namespace OOP_DOGA
 
         public string OktatottTantargyak()
         {
-            string nigger = "";
+            string nickher = "";
             foreach (var item in Tantargyak)
             {
-                nigger += item.Nev;
+                nickher += item.Nev;
             }
-            return nigger;
+            return nickher;
         }
 
     }
